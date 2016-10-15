@@ -1,0 +1,41 @@
+body {
+    background-color: #2c4870;
+    border: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+img {
+    position:absolute;
+
+}
+
+#leftSide {
+    position: absolute;
+    float:left;
+    width: 500px;
+    height: 500px;
+    background: #758aa8;
+    box-shadow: 10px 10px 10px #333;
+
+}
+
+#rightSide {
+    position: relative;
+    left: 500px;
+    width: 500px;
+    height: 500px;
+    background: #758aa8;
+    border-left: 2px solid #333;
+    box-shadow: 10px 10px 10px #333;
+}
+
+input#reset {
+    background: #758aa8;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
